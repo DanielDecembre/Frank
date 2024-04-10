@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -25px;
+}
+ .list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+ } 
+ .list li{
+    margin-right: 20px;
+    margin-left: 20px;
+ } 
+
+.list li:last-child {
+    margin-right: 0;
+}
